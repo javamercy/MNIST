@@ -1,12 +1,10 @@
-# MNIST Image Classification Report
-
----
+# MNIST Image Classification - FCNN vs CNN
 
 ## Part 1: FCNN vs CNN on MNIST Data
 
 ### Model Architectures & Parameter Sizes
 
-Comparision of a Fully Connected Neural Network (FCNN) and a Convolutional Neural Network (CNN) on the standard MNIST dataset.
+Comparison of a Fully Connected Neural Network (FCNN) and a Convolutional Neural Network (CNN) on the standard MNIST dataset.
 
 #### FCNN Architecture (Normal)
 
@@ -39,7 +37,7 @@ _Efficiency:_ Despite having fewer trainable parameters, the CNN utilizes spatia
 
 ---
 
-## Part 2: Model Behavior with Shuffled Labels
+## Part 2: FCNN vs CNN on Shuffled Labels
 
 To analyze the memorization capability versus generalization, the labels (`y_train`) were shuffled randomly. The models were modified (parameters increased) and trained for 100 epochs.
 
